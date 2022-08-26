@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+.main-box2{
+    width: 400px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.paragrah1{
+    margin-top: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main-icons{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#faceboook{
+    color: blue;
+    text-shadow: 1px 1px 2px black;
+}
+
+#messenger{
+    color: rgb(251, 0, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+#intragram{
+    color: rgb(255, 0, 89);
+    text-shadow: 1px 1px 2px black;
+}
+
+#youtube{
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px black;
+} */
+
+
+.btn1{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px green solid;
+    margin-top: 20px;
+    display: block;
+    color: black;
+    transition: .5s;
+}
+
+.btn1:hover{
+    background-color: green;
+    color: white;
+
+}
+
+.btn2{
+    width: 106px;
+    height: 26px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(241, 130, 130);
+    margin-top: 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.btn2:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.b1{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.b2{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+.green{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px green solid;
+    transition: .5s;
+    border-radius: 10px;
+}
+.green:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.blue{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px blue solid;
+    transition: .5s;
+    border-radius: 10px;
+}
+.blue:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.red{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px red solid;
+    transition: .5s;
+    border-radius: 10px;
+}
+.red:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.grey{
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px gray solid;
+    transition: .5s;
+    border-radius: 10px;
+}
+.grey:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.black{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px black solid;
+    transition: .5s;
+    border-radius: 10px;
+}
+.black:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    padding-bottom: 0px;
+    overflow-x: auto;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+a{color: white;
+  text-decoration: none;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+table{
+    width: 900px;
+    overflow-x: auto;
+}
+
+th{background-color: green;
+    color: white;
+    
+}
+
+
+th,td{
+    padding: 20px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(229, 229, 229);
+}
+
+.F1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.fa-facebook{
+    color: rgb(255, 255, 255);
+}
+.paragrah4{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    overflow-y: auto;
+}
+
+
+
+.box1,.box2,.box3,.box4,.box5{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.box5:hover{
+    opacity: 1;
+}.box1:hover{
+    opacity: 1;
+}.box2:hover{
+    opacity: 1;
+}.box3:hover{
+    opacity: 1;
+}
+.box4:hover{
+    opacity: 1;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: blueviolet;
+}
+.box5{
+    background-color: tomato;
+}
